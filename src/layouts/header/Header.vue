@@ -2,11 +2,9 @@
   <v-app-bar app clipped-left clipped-right color="white" light>
     <v-toolbar-title class="align-center d-flex">
       <span class="logo-icon">
-        <img src="@/assets/logo-icon.png" />
+        <img src="@/assets/unilorin_logo.jpg" />
       </span>
-      <span class="logo-text ml-2">
-        <img src="@/assets/logo-text.png" class="mt-2" />
-      </span>
+      <span class="logo-text ml-2"> <b>Unilorin Clinic Services</b> </span>
     </v-toolbar-title>
     <v-app-bar-nav-icon
       class="d-block d-md-none"
@@ -18,7 +16,9 @@
     />
     <v-spacer />
     <!---right part -->
-
+    <v-btn icon>
+      <v-icon>mdi-magnify</v-icon>
+    </v-btn>
     <v-menu bottom left transition="scale-transition">
       <template v-slot:activator="{ on }">
         <v-btn light icon v-on="on">
@@ -50,11 +50,11 @@ export default {
   },
   data: () => ({
     userprofile: [
-      { title: "My Profile" },
-      { title: "My Balance" },
-      { title: "Inbox" },
-      { title: "Account Setting" },
-      { title: "Logout" },
+      // { title: "My Profile" },
+      // { title: "My Balance" },
+      // { title: "Inbox" },
+      // { title: "Account Setting" },
+      // { title: "Logout" },
     ],
     href() {
       return undefined;

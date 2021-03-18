@@ -3,10 +3,10 @@
     <v-row>
       <v-col cols="12" lg="9">
         <v-card>
-          <v-card-text class="pa-5">
+          <v-card-text class="pa-2">
             <div class="d-sm-flex align-start">
               <div>
-                <span class="lstick"></span>
+                <!-- <span class="lstick"></span> -->
                 <h3
                   class="title blue-grey--text text--darken-2 font-weight-regular"
                 >
@@ -47,7 +47,7 @@
       <v-col cols="12" lg="3">
         <v-card>
           <v-card-text class="pa-5">
-            <span class="lstick"></span>
+            <!-- <span class="lstick"></span> -->
             <h3
               class="title blue-grey--text text--darken-2 font-weight-regular"
             >
@@ -83,12 +83,12 @@
           </v-card-text>
         </v-card>
       </v-col>
-      <v-col cols="12" lg="12">
+      <!-- <v-col cols="12" lg="12">
         <v-card flat class="mb-7 w-100">
           <v-card-text class="pa-5">
             <div class="d-sm-flex align-start">
               <span class="lstick"></span>
-              <h3 class="title font-weight-regular">Recent Activities</h3>
+              <h3 class="title font-weight-regular">History</h3>
               <v-spacer></v-spacer>
             </div>
             <v-simple-table class="month-table">
@@ -127,18 +127,6 @@
                             {{ monthitem.leademail }}
                           </h6>
                         </div>
-                        <div class="ml-3">
-                          <h4
-                            class="font-weight-medium text-no-wrap subtitle-1"
-                          >
-                            {{ monthitem.leadname }}
-                          </h4>
-                          <h6
-                            class="blue-grey--text text-no-wrap text--lighten-2 font-weight-regular subtitle-2"
-                          >
-                            {{ monthitem.leademail }}
-                          </h6>
-                        </div>
                       </div>
                     </td>
                     <td>
@@ -162,7 +150,7 @@
             </v-simple-table>
           </v-card-text>
         </v-card>
-      </v-col>
+      </v-col> -->
       <!-- <v-col cols="12" lg="6">
         <v-card flat class="mb-7">
           <v-card-text class="pa-5">

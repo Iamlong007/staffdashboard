@@ -15,14 +15,12 @@
       <!---USer Area -->
       <v-list-item two-line class="px-0">
         <v-list-item-avatar>
-          <img src="https://randomuser.me/api/portraits/men/81.jpg" />
+          <img src="@/assets/users/6.jpg" />
         </v-list-item-avatar>
 
         <v-list-item-content>
           <v-list-item-title>Ade Adams</v-list-item-title>
-          <v-list-item-subtitle class="caption"
-            >Admin</v-list-item-subtitle
-          >
+          <v-list-item-subtitle class="caption">Staff</v-list-item-subtitle>
         </v-list-item-content>
       </v-list-item>
       <!---USer Area -->
@@ -66,29 +64,29 @@ export default {
         to: "/dashboard/basic-dashboard",
       },
 
-      {
-        title: "Profile",
-        icon: "mdi-account-circle",
-        to: "/pages/profile",
-      },
+      // {
+      //   title: "Profile",
+      //   icon: "mdi-account-circle",
+      //   to: "/pages/profile",
+      // },
 
-      {
-        title: "Alerts",
-        icon: "mdi-alert",
-        to: "/pages/alerts",
-      },
+      // {
+      //   title: "Alerts",
+      //   icon: "mdi-alert",
+      //   to: "/pages/alerts",
+      // },
 
-      {
-        title: "Icons",
-        icon: "mdi-emoticon",
-        to: "/pages/icons",
-      },
+      // {
+      //   title: "Icons",
+      //   icon: "mdi-emoticon",
+      //   to: "/pages/icons",
+      // },
 
-      {
-        title: "Basic Table",
-        icon: "mdi-table-column-width",
-        to: "/pages/tables-simple",
-      },
+      // {
+      //   title: "Basic Table",
+      //   icon: "mdi-table-column-width",
+      //   to: "/pages/tables-simple",
+      // },
     ],
   }),
   computed: {
